@@ -1,0 +1,347 @@
+body {
+  overflow-x: hidden;
+}
+
+/* Hero Image */
+.hero {
+  background-image: linear-gradient(to right, #f4ba6aa9 0%, #ff9876b6 100%), url("./img/hero.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hero h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 2rem;
+}
+
+.svg-wave {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
+
+.cubre {
+  background-color: #FFF;
+  width: 100%;
+  height: 10px;
+  position: relative;
+  top: -5px;
+  z-index: 50;
+}
+
+/* Especialidad de la casa (segunda sección)*/
+.ilustracion {
+  width: 85%;
+}
+
+.texto-primer-sec {
+  text-align: justify;
+  font-size: 1.125rem;
+}
+
+.especialidad {
+  margin-bottom: 4.5rem;
+}
+
+/* Info Separador */
+.info {
+  margin: 4rem 0;
+  background-color: #8b4513be;
+  color: #FFF;
+  padding: 2.5rem 5rem 2.5rem 5rem;
+}
+
+.loader {
+  display: none;
+}
+
+.newsletter-form {
+  position: relative;
+}
+
+.newsletter-form-loader {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Servicios */
+.servicios {
+  margin: 4rem 0 4.5rem 0;
+  padding: 3rem 0;
+  background-image: linear-gradient(to right, #f4ba6aa9 0%, #ff9876b6 100%)
+}
+
+.container-servicios {
+  margin: 0 auto;
+  width: 950px;
+}
+
+.servicio-card {
+  height: 290px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transition: trasform 0.5s ease;
+}
+
+.row-servicios {
+  row-gap: 1rem;
+}
+
+.card-1 {
+  background-image: url("./img/postre1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 75% 50%;
+}
+
+.texto-card {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.card-1:hover .texto-card, .card-2:hover .texto-card, .card-3:hover .texto-card, 
+.card-4:hover .texto-card, .card-5:hover .texto-card, .card-6:hover .texto-card {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  visibility: visible;
+  margin: 0;
+  border-radius: 10px;
+  transition: background-color 0.25s ease;
+}
+
+.card-2 {
+  background-image: url("./img/postre2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 50%;
+}
+
+.card-3 {
+  background-image: url("./img/postre3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.card-4 {
+  background-image: url("./img/postre4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.card-5 {
+  background-image: url("./img/postre5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.card-6 {
+  background-image: url("./img/postre6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.servicio-card:hover {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.025);
+  cursor: pointer;
+}
+
+.servicio-card img {
+  width: 50px
+}
+
+/* Sobre nosotros (primer seccion) */
+.container-primer-sec {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.texto-sec {
+  font-family: 'Sono', sans-serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+/* Footer */
+.contenedor-footer {
+  background-image: linear-gradient(to right, #f4ba6aa9 0%, #ff9876b6 100%);
+  height: 550px;
+  font-size: 1.15rem;
+  position: relative;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 130px;
+  margin-bottom: 2rem;
+}
+
+.logo-dos {
+  width: 130px;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.logo-tres {
+  width: 110px;
+  margin: 1rem 0;
+}
+
+.contacto-info p {
+  margin: 4px;
+}
+
+.contacto-info a {
+  text-decoration: none;
+  color: #FFF;
+  margin: 4px;
+}
+
+.contacto-info a:hover {
+  text-decoration: none;
+  color: red;
+  margin: 4px;
+}
+
+.contacto-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.rights {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.rights p {
+  color: white;
+  margin: 0;
+}
+
+/* Diseño responsivo */
+@media screen and (max-width: 980px) {
+  .container-servicios {
+    width: 90vw;
+  }
+  .container-primer-sec {
+    width: 90vw;
+  }
+  .ilustracion {
+    width: 75%;
+  }
+  .logo {
+    width: 75px;
+    margin: 1rem 0;
+  }
+  .logo-dos, .logo-tres {
+    width: 75px;
+    margin: 0.75rem 0;
+  }
+  .footer-datos {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .footer-datos p, .footer-datos a{
+    margin: 1px;
+  }
+  .footer-datos .order-uno {
+    order:1
+  }
+  .redes {
+    display: flex;
+  }
+  .redes :first-child {
+    margin-right: 8px;
+  }
+  .footer-datos .order-uno {
+    grid-column: 1/3;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container-servicios {
+    width: 90vw;
+  }
+  .texto-sec {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  .container-primer-sec {
+    width: 90vw;
+  }
+  .footer-datos {
+    display: flex;
+    padding: 1.125rem 0;
+  }
+  .footer-datos p {
+    margin: 0;
+  }
+  .servicios {
+    margin: 3rem 0 3.5rem 0;
+  }
+  .ilustracion {
+    width: 90%;
+  }
+  .redes {
+    flex-direction: column;
+  }
+  .logo {
+    width: 60px;
+    margin: 0 0 5px 0;
+  }
+  .logo-dos {
+    width: 60px;
+    margin: 0;
+  }
+  .logo-tres {
+    width: 60px;
+    margin: 0 0 5px 0;
+  }
+  .especialidad p {
+    font-weight: normal;
+  }
+  .hero h1 {
+    font-size: 4rem;
+  }
+  .hero p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  .contenedor-footer {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+}
