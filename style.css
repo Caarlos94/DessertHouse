@@ -50,7 +50,7 @@ body {
 }
 
 .especialidad {
-  margin-bottom: 4.5rem;
+  margin-bottom: 3.75rem;
 }
 
 /* Info Separador */
@@ -77,7 +77,7 @@ body {
 /* Servicios */
 .servicios {
   margin: 4rem 0 4.5rem 0;
-  padding: 3rem 0;
+  padding: 2.75rem 0;
   background-image: linear-gradient(to right, #f4ba6aa9 0%, #ff9876b6 100%)
 }
 
@@ -303,7 +303,7 @@ body {
   }
   .footer-datos {
     display: flex;
-    padding: 1.125rem 0;
+    padding: 2rem 0 1rem 0;
   }
   .footer-datos p {
     margin: 0;
@@ -334,6 +334,7 @@ body {
   }
   .hero h1 {
     font-size: 4rem;
+    margin-top: -5rem;
   }
   .hero p {
     font-size: 1.5rem;
