@@ -17,10 +17,12 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 7rem;
   font-weight: bold;
+  user-select: none;
 }
 
 .hero p {
   font-size: 2rem;
+  user-select: none;
 }
 
 .svg-wave {
@@ -87,6 +89,7 @@ body {
 }
 
 .servicio-card {
+  user-select: none;
   height: 290px;
   border-radius: 10px;
   display: flex;
